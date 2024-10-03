@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Object Repository/Visual Testing/Page_CURA Healthc
 WebUI.setEncryptedText(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('login_page_validation')
+WebUI.takeScreenshotAsCheckpoint('login_page_validation')
 
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/button_Login'))
 
