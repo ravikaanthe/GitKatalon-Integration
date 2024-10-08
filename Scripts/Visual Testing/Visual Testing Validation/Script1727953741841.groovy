@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
+WebUI.takeScreenshotAsCheckpoint('login page')
+
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.setText(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
@@ -32,6 +34,8 @@ WebUI.takeScreenshotAsCheckpoint('login_page_validation')
 
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/button_Login'))
 
+WebUI.takeScreenshotAsCheckpoint('appointment page')
+
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/input_Medicaid_programs'))
 
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon'))
@@ -41,11 +45,9 @@ WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcar
 WebUI.setText(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/textarea_Comment_comment'), 
     'Testing')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('Registration_Page_Validation')
-
 WebUI.click(findTestObject('Object Repository/Visual Testing/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.takeScreenshotAsCheckpoint('Confirmation_Page_VisualTest')
+WebUI.takeFullPageScreenshotAsCheckpoint('Confirmation_Page_VisualTest')
 
 WebUI.closeBrowser()
 

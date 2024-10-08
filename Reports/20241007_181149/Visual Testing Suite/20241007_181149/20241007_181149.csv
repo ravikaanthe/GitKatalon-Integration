@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Visual Testing Suite,Chrome 129.0.0.0,,,2024-10-07 18:11:55,2024-10-07 18:12:13,18.624s,PASSED
+,,,,,,,
+Test Cases/Visual Testing/Visual Testing Validation,Chrome 129.0.0.0,,,2024-10-07 18:11:55,2024-10-07 18:12:13,18.021s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,2024-10-07 18:11:56,2024-10-07 18:12:01,4.659s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,2024-10-07 18:12:01,2024-10-07 18:12:01,0.764s,PASSED
+"takeScreenshotAsCheckpoint(""login page"")",Chrome 129.0.0.0,,,2024-10-07 18:12:01,2024-10-07 18:12:03,1.282s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 129.0.0.0,,,2024-10-07 18:12:03,2024-10-07 18:12:04,0.829s,PASSED
+"setText(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 129.0.0.0,,,2024-10-07 18:12:04,2024-10-07 18:12:05,0.932s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 129.0.0.0,,,2024-10-07 18:12:05,2024-10-07 18:12:05,0.756s,PASSED
+"takeScreenshotAsCheckpoint(""login_page_validation"")",Chrome 129.0.0.0,,,2024-10-07 18:12:05,2024-10-07 18:12:06,0.574s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/button_Login""))",Chrome 129.0.0.0,,,2024-10-07 18:12:06,2024-10-07 18:12:06,0.582s,PASSED
+"takeScreenshotAsCheckpoint(""appointment page"")",Chrome 129.0.0.0,,,2024-10-07 18:12:06,2024-10-07 18:12:07,0.743s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 129.0.0.0,,,2024-10-07 18:12:07,2024-10-07 18:12:08,0.478s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Chrome 129.0.0.0,,,2024-10-07 18:12:08,2024-10-07 18:12:08,0.485s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/td_30""))",Chrome 129.0.0.0,,,2024-10-07 18:12:08,2024-10-07 18:12:09,0.578s,PASSED
+"setText(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Testing"")",Chrome 129.0.0.0,,,2024-10-07 18:12:09,2024-10-07 18:12:10,0.936s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 129.0.0.0,,,2024-10-07 18:12:10,2024-10-07 18:12:10,0.570s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Confirmation_Page_VisualTest"")",Chrome 129.0.0.0,,,2024-10-07 18:12:10,2024-10-07 18:12:12,1.871s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,2024-10-07 18:12:12,2024-10-07 18:12:13,1.139s,PASSED
