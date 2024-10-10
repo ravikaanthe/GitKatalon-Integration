@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Personal Debit Cards</name>
+   <tag></tag>
+   <elementGuidId>012afcfc-fb48-44b8-be18-bd97dced42ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='siteNavbar']/li[3]/ul/li[3]/ul/li[3]/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>95cc2fdf-0b1a-4149-a340-e1086eaf00d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>578add23-1dba-490b-bcd5-6f58b8d20a15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>1b6a3b8c-c4b4-4406-8df3-e64e30725ec5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Personal Debit Cards</value>
+      <webElementGuid>a707757c-ebb6-4bee-964a-2480160ffd25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;siteNavbar&quot;)/li[@class=&quot;dropdown menu maindropdown  data-toggle-maindropdown has-submenu open first-menu hover&quot;]/ul[@class=&quot;dropdown-menu level-1&quot;]/li[@class=&quot;dropdown-submenu first-menu open hover&quot;]/ul[@class=&quot;dropdown-menu level-2 Subdropdownchild&quot;]/li[@class=&quot;list-item&quot;]/a[1]/div[@class=&quot;h6&quot;]</value>
+      <webElementGuid>e6232648-faa4-45b9-9c8c-d12ed5f868df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='siteNavbar']/li[3]/ul/li[3]/ul/li[3]/a/div</value>
+      <webElementGuid>583dca6b-c7ef-42ac-bd39-296702e856c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank'])[1]/following::div[2]</value>
+      <webElementGuid>0bc17801-36c3-495b-bb80-593aaf9ccc5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/following::div[2]</value>
+      <webElementGuid>f2f483ed-2a24-4139-9e88-97a6e368a3de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Charge'])[1]/preceding::div[6]</value>
+      <webElementGuid>ed8e43ac-f08d-4ac2-8c55-be822b8b0dcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Borrow'])[1]/preceding::div[6]</value>
+      <webElementGuid>1472fc6f-aefe-43dc-b07f-3a0d0e482db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Personal Debit Cards']/parent::*</value>
+      <webElementGuid>6f9d92be-6433-4f0a-8b76-d735faa3b218</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/div</value>
+      <webElementGuid>0deaddfb-688d-4559-a49b-e467325fd989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Personal Debit Cards' or . = 'Personal Debit Cards')]</value>
+      <webElementGuid>27b65d0a-e0ec-46ed-af7b-214695b190db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

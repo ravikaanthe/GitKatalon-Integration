@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Synovus Visual Testing,Chrome 129.0.0.0,,,2024-10-09 20:02:43,2024-10-09 20:04:03,1m - 20.316s,PASSED
+,,,,,,,
+Test Cases/Visual Testing/Synovus/Main Pages Content,Chrome 129.0.0.0,,,2024-10-09 20:02:43,2024-10-09 20:04:03,1m - 19.746s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,2024-10-09 20:02:44,2024-10-09 20:02:48,4.152s,PASSED
+"navigateToUrl(""https://www.synovus.com/"")",Chrome 129.0.0.0,,,2024-10-09 20:02:48,2024-10-09 20:02:53,4.835s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:02:53,2024-10-09 20:02:53,0.357s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,2024-10-09 20:02:53,2024-10-09 20:02:54,0.199s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal""))",Chrome 129.0.0.0,,,2024-10-09 20:02:54,2024-10-09 20:02:56,2.707s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:02:56,2024-10-09 20:02:57,0.398s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_Personal"")",Chrome 129.0.0.0,,,2024-10-09 20:02:57,2024-10-09 20:03:02,5.449s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Personal - Synovus/a_Small Business""))",Chrome 129.0.0.0,,,2024-10-09 20:03:02,2024-10-09 20:03:06,3.984s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:06,2024-10-09 20:03:07,0.539s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_SmallBusiness"")",Chrome 129.0.0.0,,,2024-10-09 20:03:07,2024-10-09 20:03:11,4.353s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Small Business - Synovus/a_Corporate  Commercial""))",Chrome 129.0.0.0,,,2024-10-09 20:03:11,2024-10-09 20:03:14,2.672s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:14,2024-10-09 20:03:14,0.298s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_CorporateCommercial"")",Chrome 129.0.0.0,,,2024-10-09 20:03:14,2024-10-09 20:03:17,2.712s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Corporate  Commercial - Synovus/a_Wealth""))",Chrome 129.0.0.0,,,2024-10-09 20:03:17,2024-10-09 20:03:19,2.830s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:19,2024-10-09 20:03:20,0.240s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_Wealth"")",Chrome 129.0.0.0,,,2024-10-09 20:03:20,2024-10-09 20:03:23,2.909s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Wealth Services - Synovus/a_About us""))",Chrome 129.0.0.0,,,2024-10-09 20:03:23,2024-10-09 20:03:26,3.203s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:26,2024-10-09 20:03:26,0.234s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_AboutUs"")",Chrome 129.0.0.0,,,2024-10-09 20:03:26,2024-10-09 20:03:29,2.757s,PASSED
+"mouseOver(findTestObject(""Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal""))",Chrome 129.0.0.0,,,2024-10-09 20:03:29,2024-10-09 20:03:29,0.590s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank""))",Chrome 129.0.0.0,,,2024-10-09 20:03:29,2024-10-09 20:03:30,0.459s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Personal Checking Accounts - Synovus/div_Personal Debit Cards""))",Chrome 129.0.0.0,,,2024-10-09 20:03:30,2024-10-09 20:03:33,3.237s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:33,2024-10-09 20:03:33,0.141s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_Personal_Bank_DebitCards"")",Chrome 129.0.0.0,,,2024-10-09 20:03:33,2024-10-09 20:03:35,2.093s,PASSED
+"mouseOver(findTestObject(""Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal""))",Chrome 129.0.0.0,,,2024-10-09 20:03:35,2024-10-09 20:03:36,0.510s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank""))",Chrome 129.0.0.0,,,2024-10-09 20:03:36,2024-10-09 20:03:36,0.388s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Personal Debit Cards from Synovus - Synovus/div_Savings""))",Chrome 129.0.0.0,,,2024-10-09 20:03:36,2024-10-09 20:03:39,3.042s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:39,2024-10-09 20:03:40,0.285s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_Personal_Bank_Savings"")",Chrome 129.0.0.0,,,2024-10-09 20:03:40,2024-10-09 20:03:42,2.814s,PASSED
+"mouseOver(findTestObject(""Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal""))",Chrome 129.0.0.0,,,2024-10-09 20:03:42,2024-10-09 20:03:43,0.544s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank""))",Chrome 129.0.0.0,,,2024-10-09 20:03:43,2024-10-09 20:03:43,0.408s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Compare your savings options - Synovus/div_Money Market Accounts""))",Chrome 129.0.0.0,,,2024-10-09 20:03:43,2024-10-09 20:03:46,2.470s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:46,2024-10-09 20:03:46,0.121s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_Personal_Bank_MMAAccounts"")",Chrome 129.0.0.0,,,2024-10-09 20:03:46,2024-10-09 20:03:48,2.290s,PASSED
+"mouseOver(findTestObject(""Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal""))",Chrome 129.0.0.0,,,2024-10-09 20:03:48,2024-10-09 20:03:49,0.552s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank""))",Chrome 129.0.0.0,,,2024-10-09 20:03:49,2024-10-09 20:03:49,0.413s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Personal Money Market Accounts - Synovus/div_Certificates of Deposit""))",Chrome 129.0.0.0,,,2024-10-09 20:03:49,2024-10-09 20:03:53,3.355s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:03:53,2024-10-09 20:03:53,0.178s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_Personal_Bank_CDs"")",Chrome 129.0.0.0,,,2024-10-09 20:03:53,2024-10-09 20:03:55,2.681s,PASSED
+"mouseOver(findTestObject(""Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal""))",Chrome 129.0.0.0,,,2024-10-09 20:03:55,2024-10-09 20:03:56,0.531s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank""))",Chrome 129.0.0.0,,,2024-10-09 20:03:56,2024-10-09 20:03:56,0.415s,PASSED
+"click(findTestObject(""Object Repository/Synovus Main Pages/Page_Personal CDs - Synovus/div_Health Savings Account""))",Chrome 129.0.0.0,,,2024-10-09 20:03:56,2024-10-09 20:04:00,3.203s,PASSED
+waitForPageLoad(5),Chrome 129.0.0.0,,,2024-10-09 20:04:00,2024-10-09 20:04:00,0.108s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Synovus_Personal_Bank_HealthSavings"")",Chrome 129.0.0.0,,,2024-10-09 20:04:00,2024-10-09 20:04:02,2.268s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,2024-10-09 20:04:02,2024-10-09 20:04:03,1.030s,PASSED

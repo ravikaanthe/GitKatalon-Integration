@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Synovus Visual Testing" time="80.316" tests="1" failures="0" errors="0">
+   <testsuite name="Synovus Visual Testing" tests="1" failures="0" errors="0" time="80.316" skipped="0" timestamp="2024-10-09 20:02:43" hostname="ravik - 10.0.0.58" id="Test Suites/Synovus Visual Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ravik\\git\\GitKatalon-Integration\\Reports\\20241009_200236\\Synovus Visual Testing\\20241009_200236"/>
+         <property name="logFiles" value="C:\\Users\\ravik\\git\\GitKatalon-Integration\\Reports\\20241009_200236\\Synovus Visual Testing\\20241009_200236\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Synovus_Personal.png, keyes\keyes-Synovus_SmallBusiness.png, keyes\keyes-Synovus_CorporateCommercial.png, keyes\keyes-Synovus_Wealth.png, keyes\keyes-Synovus_AboutUs.png, keyes\keyes-Synovus_Personal_Bank_DebitCards.png, keyes\keyes-Synovus_Personal_Bank_Savings.png, keyes\keyes-Synovus_Personal_Bank_MMAAccounts.png, keyes\keyes-Synovus_Personal_Bank_CDs.png, keyes\keyes-Synovus_Personal_Bank_HealthSavings.png"/>
+         <property name="hostName" value="ravik - 10.0.0.58"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="10.0.0.58"/>
+         <property name="sessionId" value="587739381cae89cbb5502308efc2feaf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Visual Testing/Synovus/Main Pages Content" time="79.746" classname="Test Cases/Visual Testing/Synovus/Main Pages Content" status="PASSED">
+         <system-out><![CDATA[2024-10-09 20:02:43 - [TEST_CASE][PASSED] - Test Cases/Visual Testing/Synovus/Main Pages Content: Test Cases/Visual Testing/Synovus/Main Pages Content
+
+2024-10-09 20:02:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-10-09 20:02:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-10-09 20:02:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-10-09 20:02:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-10-09 20:02:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.synovus.com/"): Navigate to 'https://www.synovus.com/' successfully
+
+2024-10-09 20:02:53 - [MESSAGE][PASSED] - Navigate to 'https://www.synovus.com/' successfully
+
+2024-10-09 20:02:53 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:02:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:02:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-10-09 20:02:54 - [MESSAGE][PASSED] - Current window maximized
+
+2024-10-09 20:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal")): Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is clicked on
+
+2024-10-09 20:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is clicked on
+
+2024-10-09 20:02:56 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:02:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:02:57 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_Personal"): Taking screenshot successfully
+
+2024-10-09 20:03:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_Personal.png]]
+
+2024-10-09 20:03:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Personal - Synovus/a_Small Business")): Object: 'Object Repository/Synovus Main Pages/Page_Personal - Synovus/a_Small Business' is clicked on
+
+2024-10-09 20:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Personal - Synovus/a_Small Business' is clicked on
+
+2024-10-09 20:03:06 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:07 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_SmallBusiness"): Taking screenshot successfully
+
+2024-10-09 20:03:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_SmallBusiness.png]]
+
+2024-10-09 20:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Small Business - Synovus/a_Corporate  Commercial")): Object: 'Object Repository/Synovus Main Pages/Page_Small Business - Synovus/a_Corporate  Commercial' is clicked on
+
+2024-10-09 20:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Small Business - Synovus/a_Corporate  Commercial' is clicked on
+
+2024-10-09 20:03:14 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:14 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_CorporateCommercial"): Taking screenshot successfully
+
+2024-10-09 20:03:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_CorporateCommercial.png]]
+
+2024-10-09 20:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Corporate  Commercial - Synovus/a_Wealth")): Object: 'Object Repository/Synovus Main Pages/Page_Corporate  Commercial - Synovus/a_Wealth' is clicked on
+
+2024-10-09 20:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Corporate  Commercial - Synovus/a_Wealth' is clicked on
+
+2024-10-09 20:03:19 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:20 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_Wealth"): Taking screenshot successfully
+
+2024-10-09 20:03:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_Wealth.png]]
+
+2024-10-09 20:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Wealth Services - Synovus/a_About us")): Object: 'Object Repository/Synovus Main Pages/Page_Wealth Services - Synovus/a_About us' is clicked on
+
+2024-10-09 20:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Wealth Services - Synovus/a_About us' is clicked on
+
+2024-10-09 20:03:26 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:26 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_AboutUs"): Taking screenshot successfully
+
+2024-10-09 20:03:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_AboutUs.png]]
+
+2024-10-09 20:03:29 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal")): Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank")): Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Personal Checking Accounts - Synovus/div_Personal Debit Cards")): Object: 'Object Repository/Synovus Main Pages/Page_Personal Checking Accounts - Synovus/div_Personal Debit Cards' is clicked on
+
+2024-10-09 20:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Personal Checking Accounts - Synovus/div_Personal Debit Cards' is clicked on
+
+2024-10-09 20:03:33 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:33 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_Personal_Bank_DebitCards"): Taking screenshot successfully
+
+2024-10-09 20:03:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_Personal_Bank_DebitCards.png]]
+
+2024-10-09 20:03:35 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal")): Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank")): Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Personal Debit Cards from Synovus - Synovus/div_Savings")): Object: 'Object Repository/Synovus Main Pages/Page_Personal Debit Cards from Synovus - Synovus/div_Savings' is clicked on
+
+2024-10-09 20:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Personal Debit Cards from Synovus - Synovus/div_Savings' is clicked on
+
+2024-10-09 20:03:39 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:40 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_Personal_Bank_Savings"): Taking screenshot successfully
+
+2024-10-09 20:03:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_Personal_Bank_Savings.png]]
+
+2024-10-09 20:03:42 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal")): Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank")): Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Compare your savings options - Synovus/div_Money Market Accounts")): Object: 'Object Repository/Synovus Main Pages/Page_Compare your savings options - Synovus/div_Money Market Accounts' is clicked on
+
+2024-10-09 20:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Compare your savings options - Synovus/div_Money Market Accounts' is clicked on
+
+2024-10-09 20:03:46 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:46 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_Personal_Bank_MMAAccounts"): Taking screenshot successfully
+
+2024-10-09 20:03:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_Personal_Bank_MMAAccounts.png]]
+
+2024-10-09 20:03:48 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal")): Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank")): Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Personal Money Market Accounts - Synovus/div_Certificates of Deposit")): Object: 'Object Repository/Synovus Main Pages/Page_Personal Money Market Accounts - Synovus/div_Certificates of Deposit' is clicked on
+
+2024-10-09 20:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Personal Money Market Accounts - Synovus/div_Certificates of Deposit' is clicked on
+
+2024-10-09 20:03:53 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:03:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:03:53 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_Personal_Bank_CDs"): Taking screenshot successfully
+
+2024-10-09 20:03:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:03:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_Personal_Bank_CDs.png]]
+
+2024-10-09 20:03:55 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal")): Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Welcome to Synovus - Synovus/a_Personal' is hovered
+
+2024-10-09 20:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank")): Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_About Us - Synovus/a_Bank' is clicked on
+
+2024-10-09 20:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Synovus Main Pages/Page_Personal CDs - Synovus/div_Health Savings Account")): Object: 'Object Repository/Synovus Main Pages/Page_Personal CDs - Synovus/div_Health Savings Account' is clicked on
+
+2024-10-09 20:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Synovus Main Pages/Page_Personal CDs - Synovus/div_Health Savings Account' is clicked on
+
+2024-10-09 20:04:00 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2024-10-09 20:04:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2024-10-09 20:04:00 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Synovus_Personal_Bank_HealthSavings"): Taking screenshot successfully
+
+2024-10-09 20:04:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-10-09 20:04:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Synovus_Personal_Bank_HealthSavings.png]]
+
+2024-10-09 20:04:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-10-09 20:04:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-10-09 20:02:43 - [TEST_SUITE][PASSED] - Synovus Visual Testing: Test Cases/Visual Testing/Synovus/Main Pages Content]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

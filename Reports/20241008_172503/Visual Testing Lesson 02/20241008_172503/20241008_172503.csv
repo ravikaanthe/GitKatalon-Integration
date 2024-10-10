@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Visual Testing Lesson 02,Chrome 129.0.0.0,,,2024-10-08 17:25:11,2024-10-08 17:28:12,3m - 0.680s,PASSED
+,,,,,,,
+Test Cases/Visual Testing/Visual Testing - Lesson 02,Chrome 129.0.0.0,,,2024-10-08 17:25:12,2024-10-08 17:28:12,3m - 0.014s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,2024-10-08 17:25:13,2024-10-08 17:25:18,4.836s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,2024-10-08 17:25:18,2024-10-08 17:25:18,0.354s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 129.0.0.0,,,2024-10-08 17:25:18,2024-10-08 17:25:20,2.134s,PASSED
+"takeScreenshotAsCheckpoint(""Login_Page"")",Chrome 129.0.0.0,,,2024-10-08 17:25:20,2024-10-08 17:28:01,2m - 41.054s,PASSED
+"setText(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 129.0.0.0,,,2024-10-08 17:28:01,2024-10-08 17:28:02,0.947s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 129.0.0.0,,,2024-10-08 17:28:02,2024-10-08 17:28:03,0.637s,PASSED
+"takeScreenshotAsCheckpoint(""Login_Page_Validation"")",Chrome 129.0.0.0,,,2024-10-08 17:28:03,2024-10-08 17:28:03,0.527s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/button_Login""))",Chrome 129.0.0.0,,,2024-10-08 17:28:03,2024-10-08 17:28:04,0.873s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Appointment_Page_Validation"")",Chrome 129.0.0.0,,,2024-10-08 17:28:04,2024-10-08 17:28:05,1.398s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 129.0.0.0,,,2024-10-08 17:28:05,2024-10-08 17:28:06,0.487s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 129.0.0.0,,,2024-10-08 17:28:06,2024-10-08 17:28:06,0.466s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/td_30""))",Chrome 129.0.0.0,,,2024-10-08 17:28:06,2024-10-08 17:28:07,0.550s,PASSED
+"setText(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Appointment for Tokyo"")",Chrome 129.0.0.0,,,2024-10-08 17:28:07,2024-10-08 17:28:08,0.935s,PASSED
+"click(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 129.0.0.0,,,2024-10-08 17:28:08,2024-10-08 17:28:09,0.617s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Appointment_Confirmation_Validation"")",Chrome 129.0.0.0,,,2024-10-08 17:28:09,2024-10-08 17:28:10,1.604s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Visual Testing LS 2/Page_CURA Healthcare Service/h2_Appointment Confirmation""), 0)",Chrome 129.0.0.0,,,2024-10-08 17:28:10,2024-10-08 17:28:11,0.439s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,2024-10-08 17:28:11,2024-10-08 17:28:12,1.097s,PASSED
